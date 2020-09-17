@@ -10,37 +10,57 @@ package uspg;
  * @author marit
  */
 public class Depositos extends Menu {
-    
-    public void transaccion(){
-       
+
+
+    @Override
+    public void Transaccion1() {
         System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
        
        Depositos();
-       // transacciones=getSaldo();
+       transacciones=getSaldo1();
         
-       //setSaldo(transacciones+deposito);
+       setSaldo1(transacciones+deposito1);
        
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+depositos);
         System.out.println("*******************");
-        //System.out.println("Su actual saldo es de: Q"+getSaldo());
+        System.out.println("Su actual saldo es de: Q"+getSaldo1());
         System.out.println("*******************");
-        }
-
-    @Override
-    public void Usuario1() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void Usuario2() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void Transaccion2() {
+       System.out.println("********************");
+       System.out.println("Ingresar el monto de deposito");
+       
+       Depositos();
+       transacciones=getSaldo2();
+        
+       setSaldo2(transacciones+deposito2);
+       
+        System.out.println("*******************");
+        System.out.println("Se deposito a su cuenta: Q"+depositos);
+        System.out.println("*******************");
+        System.out.println("Su actual saldo es de: Q"+getSaldo2());
+        System.out.println("*******************");
     }
 
     @Override
-    public void Usuario3() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void Transaccion3() {
+        System.out.println("********************");
+       System.out.println("Ingresar el monto de deposito");
+       
+       Depositos();
+       transacciones=getSaldo3();
+        
+       setSaldo3(transacciones+deposito1);
+       
+        System.out.println("*******************");
+        System.out.println("Se deposito a su cuenta: Q"+depositos);
+        System.out.println("*******************");
+        System.out.println("Su actual saldo es de: Q"+getSaldo3());
+        System.out.println("*******************");
     }
         
     }
