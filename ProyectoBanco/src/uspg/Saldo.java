@@ -7,8 +7,28 @@ package uspg;
 
 /**
  *
- * @author marit
+ * @author Bryan Sandoval
  */
-public class Saldo {
+public class Saldo extends Menu {
+
+    
+        public void Usuario1 (){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del usuario 1 actualmente es de: Q" + getUsuario1());
+            System.out.println("---------------------------");
+        }
+    
+        public void Usuario2 (){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del usuario 2 actualmente es de: Q" + getUsuario2 ());
+            System.out.println("---------------------------");
+        
+        }
+    
+        public void Usuario3(){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del usuario 3 actualmente es de: Q" + getUsuario3 ());
+            System.out.println("---------------------------");
+        }
     
 }
