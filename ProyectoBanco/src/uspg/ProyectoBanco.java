@@ -15,7 +15,10 @@ public class ProyectoBanco {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         
+        Depositos depositos = new Depositos();
+        depositos.transaccion();
     }
     
 }
+

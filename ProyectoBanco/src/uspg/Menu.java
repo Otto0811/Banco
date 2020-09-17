@@ -5,10 +5,18 @@
  */
 package uspg;
 
+import java.util.Scanner;
+
 /**
  *
  * @author marit
  */
 public abstract class Menu {
+    Scanner scn = new Scanner (System.in);
+    protected double depositos;
+    
+    public void Depositos (){
+         depositos = scn.nextDouble();
+    }
     
 }
