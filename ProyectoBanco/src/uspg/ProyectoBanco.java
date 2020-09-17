@@ -18,6 +18,10 @@ public class ProyectoBanco {
          
         Depositos depositos = new Depositos();
         depositos.transaccion();
+        
+        Saldo sd = new Saldo();
+        sd.Saldo();
+        
     }
     
 }

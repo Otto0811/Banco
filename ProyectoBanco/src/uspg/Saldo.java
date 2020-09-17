@@ -9,6 +9,22 @@ package uspg;
  *
  * @author marit
  */
-public class Saldo {
-    
+public class Saldo extends Menu {
+
+    public int Saldo;
+
+    public int getSaldo() {
+        return Saldo;
+    }
+
+    public void setSaldo(int Saldo) {
+        this.Saldo = Saldo;
+    } 
+
+    Saldo() {
+       
+        System.out.println("------------------------------------");
+        System.out.println("Su saldo actual es de: Q"+getSaldo() + depositos );
+        System.out.println("------------------------------------");
+    }
 }
