@@ -20,11 +20,11 @@ public class ProyectoBanco {
         depositos.transaccion();
         
         Saldo sd = new Saldo();
-        sd.Usuario1();
+        sd.Otto();
         System.out.println("-----------------------------------");
-        sd.Usuario2();
+        sd.Mario();
         System.out.println("-----------------------------------");
-        sd.Usuario3();
+        sd.Noemi();
         System.out.println("-----------------------------------");
         
     }

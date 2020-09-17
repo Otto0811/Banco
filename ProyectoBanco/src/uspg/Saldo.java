@@ -12,22 +12,22 @@ package uspg;
 public class Saldo extends Menu {
 
     
-        public void Usuario1 (){
+        public void Otto (){
             System.out.println("---------------------------");
-            System.out.println("El saldo del usuario 1 actualmente es de: Q" + getUsuario1() +".00"  );
+            System.out.println("El saldo del Otto actualmente es de: Q" + getOtto() +".00"  );
             System.out.println("---------------------------");
         }
     
-        public void Usuario2 (){
+        public void Mario (){
             System.out.println("---------------------------");
-            System.out.println("El saldo del usuario 2 actualmente es de: Q" + getUsuario2 () + ".00" );
+            System.out.println("El saldo del Mario actualmente es de: Q" + getMario () + ".00" );
             System.out.println("---------------------------");
         
         }
     
-        public void Usuario3(){
+        public void Noemi(){
             System.out.println("---------------------------");
-            System.out.println("El saldo del usuario 3 actualmente es de: Q" + getUsuario3 () + ".00" );
+            System.out.println("El saldo del Noemi actualmente es de: Q" + getNoemi () + ".00" );
             System.out.println("---------------------------");
         }
     
