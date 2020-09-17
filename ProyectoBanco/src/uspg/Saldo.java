@@ -14,20 +14,20 @@ public class Saldo extends Menu {
     
         public void Otto (){
             System.out.println("---------------------------");
-            System.out.println("El saldo del Otto actualmente es de: Q" + getOtto() +".00"  );
+            System.out.println("El saldo del Otto actualmente es de: Q" + getUsuario1() +".00"  );
             System.out.println("---------------------------");
         }
     
         public void Mario (){
             System.out.println("---------------------------");
-            System.out.println("El saldo del Mario actualmente es de: Q" + getMario () + ".00" );
+            System.out.println("El saldo del Mario actualmente es de: Q" + getUsuario2 () + ".00" );
             System.out.println("---------------------------");
         
         }
     
         public void Noemi(){
             System.out.println("---------------------------");
-            System.out.println("El saldo del Noemi actualmente es de: Q" + getNoemi () + ".00" );
+            System.out.println("El saldo del Noemi actualmente es de: Q" + getUsuario3 () + ".00" );
             System.out.println("---------------------------");
         }
     

@@ -12,56 +12,68 @@ import java.util.Scanner;
  * @author marit
  */
 public abstract class Menu {
+    Scanner scn = new Scanner(System.in);
 
-    public int Otto = 500;
-    public int Mario = 1000;
-    public int Noemi = 1500;
 
-     
+    public int Usuario1 = 500;
+    public int Usuario2 = 1000;
+    public int Usuario3 = 1500;
+
+    public abstract void Usuario1();
+    public abstract void Usuario2();
+    public abstract void Usuario3();
+
 
     public void saldo() {
         int opcion1 = 0;
+        
+        System.out.println("opcción");
+        opcion1 = scn.nextInt();
 
         if (opcion1 == 1) {
             
             Menu user1 = new Saldo();
+            user1.Usuario1();
             
         }  else if (opcion1 == 2) {
+            
                 Menu user2 = new Saldo();
+                user2.Usuario2();
                 
             } else if (opcion1 == 3) {
                 
                 Menu user3 = new Saldo();
+                user3.Usuario3();
                 
             }
     }
 
 
-    public int getOtto() {
-        return Otto;
+    public int getUsuario1() {
+        return Usuario1;
     }
 
-    public void setOtto(int Otto) {
-        this.Otto = Otto;
+    public void setUsuario1(int Usuario1) {
+        this.Usuario1 = Usuario1;
     }
 
-    public int getMario() {
-        return Mario;
+    public int getUsuario2() {
+        return Usuario2;
     }
 
-    public void setMario(int Mario) {
-        this.Mario = Mario;
+    public void setUsuario2(int Usuario2) {
+        this.Usuario2 = Usuario2;
     }
 
-    public int getNoemi() {
-        return Noemi;
+    public int getUsuario3() {
+        return Usuario3;
     }
 
-    public void setNoemi(int Noemi) {
-        this.Noemi = Noemi;
+    public void setUsuario3(int Usuario3) {
+        this.Usuario3 = Usuario3;
     }
 
-    Scanner scn = new Scanner(System.in);
+    
     protected double depositos;
 
     public void Depositos() {

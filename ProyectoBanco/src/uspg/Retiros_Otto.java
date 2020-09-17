@@ -10,6 +10,7 @@ package uspg;
  * @author Otto
  */
 public class Retiros_Otto {
+    /*
        @Override
     public void Transaccion(){
         System.out.print("Monto a retirar: "); 
@@ -28,5 +29,6 @@ public class Retiros_Otto {
             System.out.println("------------------");
         }
     }
+    */
 } 
 
