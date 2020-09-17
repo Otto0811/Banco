@@ -27,6 +27,21 @@ public class Depositos extends Menu {
         //System.out.println("Su actual saldo es de: Q"+getSaldo());
         System.out.println("*******************");
         }
+
+    @Override
+    public void Usuario1() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void Usuario2() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void Usuario3() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
         
     }
 

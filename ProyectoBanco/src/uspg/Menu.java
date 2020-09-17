@@ -12,24 +12,36 @@ import java.util.Scanner;
  * @author marit
  */
 public abstract class Menu {
+    Scanner scn = new Scanner(System.in);
 
     public int Usuario1 = 500;
     public int Usuario2 = 1000;
     public int Usuario3 = 1500;
+    
+    public abstract void Usuario1();
+    public abstract void Usuario2();
+    public abstract void Usuario3();
 
     public void saldo() {
         int opcion1 = 0;
+        
+        System.out.println("opcción");
+        opcion1 = scn.nextInt();
 
         if (opcion1 == 1) {
             
             Menu user1 = new Saldo();
+            user1.Usuario1();
             
         }  else if (opcion1 == 2) {
+            
                 Menu user2 = new Saldo();
+                user2.Usuario2();
                 
             } else if (opcion1 == 3) {
                 
                 Menu user3 = new Saldo();
+                user3.Usuario3();
                 
             }
     }
@@ -58,7 +70,7 @@ public abstract class Menu {
         this.Usuario3 = Usuario3;
     }
 
-    Scanner scn = new Scanner(System.in);
+    
     protected double depositos;
 
     public void Depositos() {

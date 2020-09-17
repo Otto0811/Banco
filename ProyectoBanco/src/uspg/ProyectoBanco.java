@@ -15,17 +15,13 @@ public class ProyectoBanco {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         
+         /*
         Depositos depositos = new Depositos();
         depositos.transaccion();
+        */
+        Menu menu = new Saldo();
+        menu.saldo();
         
-        Saldo sd = new Saldo();
-        sd.Usuario1();
-        System.out.println("-----------------------------------");
-        sd.Usuario2();
-        System.out.println("-----------------------------------");
-        sd.Usuario3();
-        System.out.println("-----------------------------------");
         
     }
     
