@@ -16,6 +16,7 @@ public abstract class Menu {
     public int Usuario1 = 500; 
     public int Usuario2 = 1000;
     public int Usuario3 = 1500;
+     
     
 
     public int getUsuario1() {
