@@ -33,5 +33,4 @@ public class Saldo extends Menu {
         System.out.println("El saldo del usuario 3 actualmente es de: Q" + getSaldo3());
         System.out.println("---------------------------");
     }
-
 }

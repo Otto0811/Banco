@@ -22,7 +22,7 @@ public class ProyectoBanco {
         Menu menu = new Saldo();
         menu.saldo();
         
-        
+
     }
     
 }

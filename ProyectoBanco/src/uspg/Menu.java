@@ -24,6 +24,9 @@ public abstract class Menu {
     public abstract void Transaccion2();
     public abstract void Transaccion3();
 
+
+
+
     public void saldo() {
         int opcion1 = 0;
         
@@ -48,6 +51,7 @@ public abstract class Menu {
             }
         
     }
+
 
     public int getSaldo1() {
         return Saldo1;
