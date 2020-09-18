@@ -20,8 +20,11 @@ public class ProyectoBanco {
         depositos.transaccion();
         */
         Menu menu = new Saldo();
-        menu.saldo();
+        menu.setSaldo1(500);
+        menu.setSaldo2(2000);
+        menu.setSaldo3(10000);
         
+
 
         Saldo sd = new Saldo();
         System.out.println("-----------------------------------");
@@ -32,8 +35,13 @@ public class ProyectoBanco {
         sd.Usuario3();
         System.out.println("-----------------------------------");
 
+
+        menu.Operaciones();
+
         
+
     }
+    
     
 }
 

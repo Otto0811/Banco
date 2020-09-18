@@ -1,0 +1,53 @@
+   (no es necesario vectores, mejor switch )
+
+   grupos de 4
+
+   hacer un comentario con los integrantes de grupo con el carnet
+   Y escoger un coordinador que haga el repositorio en guit (Otto)
+
+
+   simuilar un banco
+
+   retiros y depositos 
+
+   saldo total (switch )
+
+   al final del dia calcula todo el direno que fue depositado y retirado
+
+   ingresar numero de cuenta:
+
+   numero de cuenta: "245"
+
+  ---Menu--
+
+   codigo de cliente
+
+   1. depositos
+
+   2. reitros
+
+   3. saldo 
+
+   4. salir
+
+
+
+     mostrar el saldo total de todos los clientes
+
+       nombre	   	saldo	
+        Jose 		                  100
+        Carlos 		200
+        Mario 		200
+        total 			500
+
+
+    clase princinpal el switch 
+
+   y dos o más clases aparte
+
+
+
+
+		Se debe de crear una clase pricipal (menú) y otras 4 (depositos, retiros, saldo y total de los saldos de los clientes)
+		de esa manera en la clase principal solo se llaman a las otras clases
+
