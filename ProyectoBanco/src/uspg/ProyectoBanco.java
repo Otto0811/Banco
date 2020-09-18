@@ -24,6 +24,7 @@ public class ProyectoBanco {
         
 
         Saldo sd = new Saldo();
+        System.out.println("-----------------------------------");
         sd.Usuario1();
         System.out.println("-----------------------------------");
         sd.Usuario2();
