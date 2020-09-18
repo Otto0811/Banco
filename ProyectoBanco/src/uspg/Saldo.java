@@ -10,6 +10,32 @@ package uspg;
  * @author Bryan Sandoval
  */
 public class Saldo extends Menu {
+
+
+    
+        
+        public void Usuario1 (){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del Usuario 1 actualmente es de: Q" + getSaldo1() +".00"  );
+            System.out.println("---------------------------");
+        }
+    
+        
+        public void Usuario2 (){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del Usuario 2 actualmente es de: Q" + getSaldo2 () + ".00" );
+            System.out.println("---------------------------");
+        
+        }
+    
+        
+        public void Usuario3 (){
+            System.out.println("---------------------------");
+            System.out.println("El saldo del Usuario 3 actualmente es de: Q" + getSaldo3 () + ".00" );
+            System.out.println("---------------------------");
+        }
+
+        
     
     //Mensaje de Saldo 1
     @Override
@@ -34,4 +60,7 @@ public class Saldo extends Menu {
         System.out.println("El saldo del usuario 3 actualmente es de: Q" + getSaldo3());
         System.out.println("---------------------------");
     }
+
+
+    
 }
