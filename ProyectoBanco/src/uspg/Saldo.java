@@ -10,7 +10,8 @@ package uspg;
  * @author Bryan Sandoval
  */
 public class Saldo extends Menu {
-
+    
+    //Mensaje de Saldo 1
     @Override
     public void Transaccion1() {
 
@@ -19,14 +20,14 @@ public class Saldo extends Menu {
         System.out.println("---------------------------");
 
     }
-
+//------------------------------------------------------------------------------
     @Override
     public void Transaccion2() {
         System.out.println("---------------------------");
         System.out.println("El saldo del usuario 2 actualmente es de: Q" + getSaldo2());
         System.out.println("---------------------------");
     }
-
+//------------------------------------------------------------------------------
     @Override
     public void Transaccion3() {
         System.out.println("---------------------------");

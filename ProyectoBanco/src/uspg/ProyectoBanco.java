@@ -20,7 +20,11 @@ public class ProyectoBanco {
         depositos.transaccion();
         */
         Menu menu = new Saldo();
-        menu.saldo();
+        menu.setSaldo1(500);
+        menu.setSaldo2(2000);
+        menu.setSaldo3(10000);
+        
+        menu.Operaciones();
         
 
     }

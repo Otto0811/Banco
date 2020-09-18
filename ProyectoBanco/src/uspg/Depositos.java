@@ -12,32 +12,36 @@ package uspg;
 public class Depositos extends Menu {
 
 
-    @Override
     public void Transaccion1() {
         System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
        
+       //Se ingresan datos a depositos1
        Deposito1();
-       transacciones=getSaldo1();
-        
-       setSaldo1(transacciones+deposito1);
        
+       //Toma los datos de Saldo1
+       transaccion1=getSaldo1();
+       
+       //Actualiza los datos de Saldo1 
+       setSaldo1(transaccion1+deposito1);
+       
+       //Mensaje
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+deposito1);
         System.out.println("*******************");
         System.out.println("Su actual saldo es de: Q"+getSaldo1());
         System.out.println("*******************");
     }
-
-    @Override
+//------------------------------------------------------------------------------
     public void Transaccion2() {
        System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
        
        Deposito2();
-       transacciones=getSaldo2();
+       
+       transaccion2=getSaldo2();
         
-       setSaldo2(transacciones+deposito2);
+       setSaldo2(transaccion2+deposito2);
        
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+deposito2);
@@ -45,16 +49,16 @@ public class Depositos extends Menu {
         System.out.println("Su actual saldo es de: Q"+getSaldo2());
         System.out.println("*******************");
     }
-
-    @Override
+//------------------------------------------------------------------------------
     public void Transaccion3() {
         System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
        
        Deposito3();
-       transacciones=getSaldo3();
+       
+       transaccion3=getSaldo3();
         
-       setSaldo3(transacciones+deposito1);
+       setSaldo3(transaccion3+deposito1);
        
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+deposito3);

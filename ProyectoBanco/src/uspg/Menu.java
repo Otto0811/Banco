@@ -15,19 +15,15 @@ public abstract class Menu {
 
     Scanner scn = new Scanner(System.in);
 
-    public int Saldo1 = 500;
-    public int Saldo2 = 1000;
-    public int Saldo3 = 1500;
+    protected int transaccion1, transaccion2, transaccion3;
 
-    protected int transacciones, deposito1, deposito2, deposito3;
+    protected int deposito1, deposito2, deposito3;
 
-    public abstract void Transaccion1();
+    protected int retiros1, retiros2, retiros3;
 
-    public abstract void Transaccion2();
+    private static int Saldo1, Saldo2, Saldo3;
 
-    public abstract void Transaccion3();
-
-    public void saldo() {
+    public void Operaciones() {
         int opcion1 = 0;
         int opcion2 = 0;
         int bandera = 0;
@@ -39,7 +35,7 @@ public abstract class Menu {
 
             do {
 
-            //Bucle menú 
+                //Bucle menú 
                 System.out.println("-----Por favor seleccione una opción-----");
                 System.out.println("    1.Deposito de efectivo");
                 System.out.println("    2.Retiro de dinero");
@@ -62,7 +58,7 @@ public abstract class Menu {
                 } else if (opcion2 == 2) {
                     System.out.println("   ---Retiros--- ");
 
-                //Menu retiros = new Retiros();
+                    //Menu retiros = new Retiros();
                     //retiros.Transaccion1();
                 } else if (opcion2 == 3) {
                     System.out.println("   ---Saldo--- ");
@@ -73,7 +69,7 @@ public abstract class Menu {
                 } else if (opcion2 == 4) {
                     System.out.println("   ---Clientes--- ");
 
-                 //Menu clientes = new Clientes();
+                    //Menu clientes = new Clientes();
                     //Clientes.Transaccion1();
                 } else if (opcion2 == 5) {
                     System.out.println("---------------------");
@@ -86,10 +82,9 @@ public abstract class Menu {
 
         } else if (opcion1 == 2) {
 
-            
             do {
 
-            //Bucle menú 
+                //Bucle menú 
                 System.out.println("-----Por favor seleccione una opción-----");
                 System.out.println("    1.Deposito de efectivo");
                 System.out.println("    2.Retiro de dinero");
@@ -112,7 +107,7 @@ public abstract class Menu {
                 } else if (opcion2 == 2) {
                     System.out.println("   ---Retiros--- ");
 
-                //Menu retiros = new Retiros();
+                    //Menu retiros = new Retiros();
                     //retiros.Transaccion1();
                 } else if (opcion2 == 3) {
                     System.out.println("   ---Saldo--- ");
@@ -123,7 +118,7 @@ public abstract class Menu {
                 } else if (opcion2 == 4) {
                     System.out.println("   ---Clientes--- ");
 
-                 //Menu clientes = new Clientes();
+                    //Menu clientes = new Clientes();
                     //Clientes.Transaccion1();
                 } else if (opcion2 == 5) {
                     System.out.println("---------------------");
@@ -134,10 +129,10 @@ public abstract class Menu {
 
             } while (bandera != 2);
         } else if (opcion1 == 3) {
-            
+
             do {
 
-            //Bucle menú 
+                //Bucle menú 
                 System.out.println("-----Por favor seleccione una opción-----");
                 System.out.println("    1.Deposito de efectivo");
                 System.out.println("    2.Retiro de dinero");
@@ -160,7 +155,7 @@ public abstract class Menu {
                 } else if (opcion2 == 2) {
                     System.out.println("   ---Retiros--- ");
 
-                //Menu retiros = new Retiros();
+                    //Menu retiros = new Retiros();
                     //retiros.Transaccion1();
                 } else if (opcion2 == 3) {
                     System.out.println("   ---Saldo--- ");
@@ -171,7 +166,7 @@ public abstract class Menu {
                 } else if (opcion2 == 4) {
                     System.out.println("   ---Clientes--- ");
 
-                 //Menu clientes = new Clientes();
+                    //Menu clientes = new Clientes();
                     //Clientes.Transaccion1();
                 } else if (opcion2 == 5) {
                     System.out.println("---------------------");
@@ -183,10 +178,10 @@ public abstract class Menu {
             } while (bandera != 2);
 
             Menu user3 = new Saldo();
-           
+
             do {
 
-            //Bucle menú 
+                //Bucle menú 
                 System.out.println("-----Por favor seleccione una opción-----");
                 System.out.println("    1.Deposito de efectivo");
                 System.out.println("    2.Retiro de dinero");
@@ -209,7 +204,7 @@ public abstract class Menu {
                 } else if (opcion2 == 2) {
                     System.out.println("   ---Retiros--- ");
 
-                //Menu retiros = new Retiros();
+                    //Menu retiros = new Retiros();
                     //retiros.Transaccion1();
                 } else if (opcion2 == 3) {
                     System.out.println("   ---Saldo--- ");
@@ -220,7 +215,7 @@ public abstract class Menu {
                 } else if (opcion2 == 4) {
                     System.out.println("   ---Clientes--- ");
 
-                 //Menu clientes = new Clientes();
+                    //Menu clientes = new Clientes();
                     //Clientes.Transaccion1();
                 } else if (opcion2 == 5) {
                     System.out.println("---------------------");
@@ -234,7 +229,43 @@ public abstract class Menu {
         }
 
     }
+//------------------------------------------------------------------------------ 
+    //Metodo Retiro
 
+    public void Retiros1() {
+        retiros1 = scn.nextInt();
+    }
+
+    public void Retiros2() {
+        retiros2 = scn.nextInt();
+    }
+
+    public void Retiros3() {
+        retiros3 = scn.nextInt();
+    }
+//------------------------------------------------------------------------------
+    //Metodo Deposito
+
+    public void Deposito1() {
+        deposito1 = scn.nextInt();
+    }
+
+    public void Deposito2() {
+        deposito2 = scn.nextInt();
+    }
+
+    public void Deposito3() {
+        deposito3 = scn.nextInt();
+    }
+//------------------------------------------------------------------------------
+    //Transacciones
+    public abstract void Transaccion1();
+
+    public abstract void Transaccion2();
+
+    public abstract void Transaccion3();
+//------------------------------------------------------------------------------
+    //getters and setters
     public int getSaldo1() {
         return Saldo1;
     }
@@ -258,20 +289,12 @@ public abstract class Menu {
     public void setSaldo3(int Saldo3) {
         this.Saldo3 = Saldo3;
     }
-/*
-    protected double depositos;
+    /*
+     protected double depositos;
 
-    public void Depositos() {
-        depositos = scn.nextDouble();
-    }
-*/
-    public void Deposito1(){
-        deposito1=scn.nextInt();
-    }
-     public void Deposito2(){
-        deposito2=scn.nextInt();
-    }
-      public void Deposito3(){
-        deposito3=scn.nextInt();
-    }
+     public void Depositos() {
+     depositos = scn.nextDouble();
+     }
+     */
+
 }

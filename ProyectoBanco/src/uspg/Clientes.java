@@ -9,7 +9,30 @@ package uspg;
  *
  * @author marit
  */
-public class Clientes {
-    
-    
+public class Clientes extends Menu {
+
+    @Override
+    public void Transaccion1() {
+        //System.out.println("Usuario: " + getUsuario1() + " / Número de cuenta: " + getNoCuenta1() + " / Saldo: " + getSaldo1());
+        
+        System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+        
+        //System.out.println("Usuario: " + getUsuario1() + " / Número de cuenta: " + getNoCuenta1() + " / Saldo: " + getSaldo1());
+        
+        System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
+        
+        //System.out.println("Usuario: " + getUsuario1() + " / Número de cuenta: " + getNoCuenta1() + " / Saldo: " + getSaldo1());
+
+    }
+
+    @Override
+    public void Transaccion2() {
+
+    }
+
+    @Override
+    public void Transaccion3() {
+
+    }
+
 }
