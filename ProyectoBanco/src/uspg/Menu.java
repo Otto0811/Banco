@@ -54,8 +54,7 @@ public abstract class Menu {
                     System.out.println("    1.Deposito de efectivo");
                     System.out.println("    2.Retiro de dinero");
                     System.out.println("    3.Saldo en la cuenta");
-                    System.out.println("    4.Clientes");
-                    System.out.println("    5.Salir del Usuario");
+                    System.out.println("    4.Salir del Usuario");
 
                     System.out.println("-----------------------------------------");
 
@@ -80,13 +79,8 @@ public abstract class Menu {
 
                         Menu saldo = new Saldo();
                         saldo.Transaccion1();
-//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------                 
                     } else if (opcion2 == 4) {
-                        System.out.println("   ---Clientes--- ");
-
-                        Clientes();
-                        //------------------------------------------------------------------------------                   
-                    } else if (opcion2 == 5) {
                         System.out.println("---------------------");
                         System.out.println("Ha salido del Usuario :" + usuario1);
                         System.out.println("---------------------");
@@ -111,8 +105,7 @@ public abstract class Menu {
                     System.out.println("    1.Deposito de efectivo");
                     System.out.println("    2.Retiro de dinero");
                     System.out.println("    3.Saldo en la cuenta");
-                    System.out.println("    4.Clientes");
-                    System.out.println("    5.Salir del Usuario");
+                    System.out.println("    4.Salir del Usuario");
 
                     System.out.println("-----------------------------------------");
 
@@ -137,13 +130,8 @@ public abstract class Menu {
 
                         Menu saldo = new Saldo();
                         saldo.Transaccion2();
-//------------------------------------------------------------------------------
-                    } else if (opcion2 == 4) {
-                        System.out.println("   ---Clientes--- ");
-
-                        Clientes();
 //------------------------------------------------------------------------------                    
-                    } else if (opcion2 == 5) {
+                    } else if (opcion2 == 4) {
                         System.out.println("---------------------");
                         System.out.println("Ha salido del Usuario :" + usuario2);
                         System.out.println("---------------------");
