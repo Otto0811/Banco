@@ -11,7 +11,7 @@ package uspg;
  */
 public class Depositos extends Menu {
 
-
+    @Override
     public void Transaccion1() {
         System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
@@ -33,6 +33,7 @@ public class Depositos extends Menu {
         System.out.println("*******************");
     }
 //------------------------------------------------------------------------------
+    @Override
     public void Transaccion2() {
        System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
@@ -50,6 +51,7 @@ public class Depositos extends Menu {
         System.out.println("*******************");
     }
 //------------------------------------------------------------------------------
+    @Override
     public void Transaccion3() {
         System.out.println("********************");
        System.out.println("Ingresar el monto de deposito");
