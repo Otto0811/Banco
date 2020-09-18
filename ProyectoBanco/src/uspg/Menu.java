@@ -102,7 +102,7 @@ public abstract class Menu {
                 usuario2 = scn.next();
 
                 System.out.print("Número de cuenta: ");
-                noCuenta3 = scn.nextInt();
+                noCuenta2 = scn.nextInt();
 
                 do {
 
@@ -124,7 +124,7 @@ public abstract class Menu {
                         System.out.println("   ---Deposito--- ");
 
                         Menu deposito = new Depositos();
-                        deposito.Transaccion1();
+                        deposito.Transaccion2();
 //------------------------------------------------------------------------------
                     } else if (opcion2 == 2) {
                         System.out.println("   ---Retiros--- ");
@@ -136,7 +136,7 @@ public abstract class Menu {
                         System.out.println("   ---Saldo--- ");
 
                         Menu saldo = new Saldo();
-                        saldo.Transaccion1();
+                        saldo.Transaccion2();
 //------------------------------------------------------------------------------
                     } else if (opcion2 == 4) {
                         System.out.println("   ---Clientes--- ");
@@ -183,7 +183,7 @@ public abstract class Menu {
                         System.out.println("   ---Deposito--- ");
 
                         Menu deposito = new Depositos();
-                        deposito.Transaccion1();
+                        deposito.Transaccion3();
 //------------------------------------------------------------------------------
                     } else if (opcion2 == 2) {
                         System.out.println("   ---Retiros--- ");
@@ -195,7 +195,7 @@ public abstract class Menu {
                         System.out.println("   ---Saldo--- ");
 
                         Menu saldo = new Saldo();
-                        saldo.Transaccion1();
+                        saldo.Transaccion3();
 //------------------------------------------------------------------------------
                     } else if (opcion2 == 4) {
                         System.out.println("   ---Clientes--- ");

@@ -13,13 +13,13 @@ public class Retiros_Otto extends Menu {
     
     @Override
     public void Transaccion1() {
+        
         System.out.print("Monto a retirar: ");
         Retiros1();
+        
         if (retiros1 <= getSaldo1()) {
-
-            transaccion1 = getSaldo1();
-
-            setSaldo1(transaccion1 - retiros1);
+            
+            setSaldo1(getSaldo1() - retiros1);
 
             System.out.println("------------------------------");
             System.out.println("Usted retiro:" + retiros1);
@@ -36,13 +36,13 @@ public class Retiros_Otto extends Menu {
     
     @Override
     public void Transaccion2() {
+        
         System.out.print("Monto a retirar: ");
         Retiros2();
+        
         if (retiros2 <= getSaldo2()) {
 
-            transaccion2 = getSaldo2();
-
-            setSaldo1(transaccion2 - retiros2);
+            setSaldo2(getSaldo2() - retiros2);
 
             System.out.println("------------------------------");
             System.out.println("Usted retiro:" + retiros2);
@@ -59,13 +59,13 @@ public class Retiros_Otto extends Menu {
     
     @Override
     public void Transaccion3() {
+        
         System.out.print("Monto a retirar: ");
         Retiros3();
+        
         if (retiros3 <= getSaldo3()) {
 
-            transaccion3 = getSaldo3();
-
-            setSaldo1(transaccion3 - retiros3);
+            setSaldo3(getSaldo3() - retiros3);
 
             System.out.println("------------------------------");
             System.out.println("Usted retiro:" + retiros3);

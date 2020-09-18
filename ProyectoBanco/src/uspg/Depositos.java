@@ -20,10 +20,10 @@ public class Depositos extends Menu {
        Deposito1();
        
        //Toma los datos de Saldo1
-       transaccion1=getSaldo1();
+       //transaccion1=getSaldo1();
        
        //Actualiza los datos de Saldo1 
-       setSaldo1(transaccion1+deposito1);
+       setSaldo1(getSaldo1()+deposito1);
        
        //Mensaje
         System.out.println("*******************");
@@ -40,9 +40,9 @@ public class Depositos extends Menu {
        
        Deposito2();
        
-       transaccion2=getSaldo2();
+       //transaccion2=getSaldo2();
         
-       setSaldo2(transaccion2+deposito2);
+       setSaldo2(getSaldo2()+deposito2);
        
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+deposito2);
@@ -58,9 +58,9 @@ public class Depositos extends Menu {
        
        Deposito3();
        
-       transaccion3=getSaldo3();
+       //transaccion3=getSaldo3();
         
-       setSaldo3(transaccion3+deposito1);
+       setSaldo3(getSaldo3()+deposito3);
        
         System.out.println("*******************");
         System.out.println("Se deposito a su cuenta: Q"+deposito3);
